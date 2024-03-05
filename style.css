@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ width: 750px;
+ margin: auto;
+ border: 1px solid red;
+ position: relative;
+}
+.title{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.todo-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+.todo-search{
+    flex-grow: 1;
+    border: 1px solid #6c63ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 16px;
+    border-radius: 5px;
+}
+.todo-search input{
+    border: none;
+    outline: none;
+    width: 500px;
+   
+    
+
+}
+.search-icon{
+    cursor: pointer;
+}
+
+.todo-filter select{
+width: 85px;
+height: 38px;
+border-radius: 5px;
+font-size: 18px;
+background:#6c63ff ;
+color: #fff;
+font-weight: bold;
+padding: 10px;
+border: none;
+outline: none;
+color: #c3c1e5;
+}
+
+.todo-theme button{
+    border-radius: 5px;
+    font-size: 18px;
+    background:#6c63ff ;
+    color: #fff;
+    font-weight: bold;  
+    padding: 8px 12px; 
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.todo-list{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 115px;
+    height: 500px;
+  
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #6c63ff ;
+    padding: 17px 0px;
+}
+.text{
+    display: flex;
+    gap: 17px;
+}
+.item-btns{
+    display: flex;
+    gap: 15px;
+}
+.item-btns button{
+    padding: 8px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+
+.float-btn{
+    position: absolute;
+    bottom: 32px;
+    right: 8px;
+    cursor: pointer;
+}
+.float-btn i{
+    background-color: #6c63ff;
+    border-radius: 50%;
+    color: #fff;
+    padding: 13px;
+    
+}
