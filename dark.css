@@ -1,3 +1,10 @@
+
+
+body{
+    background-color: #424242;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -32,9 +39,10 @@
     outline: none;
     width: 100%;
     background: none;
-}
+   
+    
 
-/* modal or  */
+}
 .search-icon{
     cursor: pointer;
 }
@@ -91,7 +99,7 @@ color: #c3c1e5;
 }
 .item-btns button{
     padding: 8px;
-    background-color: none;
+    background: none;
     border: none;
     cursor: pointer;
 }
@@ -171,10 +179,3 @@ padding: 18px 30px;
     color: #6c63ff;
     border: 1px solid #6c63ff ;
 }
-
-
-
-span.checked{
-    text-decoration: line-through;
-}
-
